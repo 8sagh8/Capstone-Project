@@ -13,5 +13,8 @@
 2. Importing Dataset
 3. Data Unbalancing:
     1. Dataset# 1: number of real job postings reduced. New dataset contains real positing 2000: and fake positings: 866
-4. Remove unrelated features from dataset
-    1. job_id is removed
+4. Remove/Add features from dataset
+    1. Removed: job_id
+    2. Removed: company_profile removed as most of the info is unrelated
+    3. Added: has_company_profile, if positing has company profile then value is 1 otherwise 0.
+    4. Removed: department, removed .. find our reason
